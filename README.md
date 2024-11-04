@@ -1,7 +1,7 @@
 # BalintAkosproject
 <h1>Alap koncepció:</h1> Egy oldal ahol a felhasználok listázhatják a látott sorozataikat az account készítés után.
 
-<h1>Feladat - Látott sorozatok naplózása</h1>
+<h1>Feladat - Látott sorozatok naplózása:</h1>
  Regisztráció
 - Bejelentkezés
 - Sorozatok hozzáadása
@@ -27,7 +27,7 @@
 - CSS
 - JavaScript
 
-<h1>BBACKEND: </h1>
+<h1>BACKEND: </h1>
  Express js
 
 <h1>ADATBÁZIS: </h1>
