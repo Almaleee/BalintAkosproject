@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorozat Napló</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.html">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="about.html">Rólunk</a>
+    </nav>
+
+    
+    <div id="container">
+        <h1>Sorozat Napló</h1>
+        
+        <div id="seriesList" style="display: none;">
+            <h2>Sorozatok</h2>
+            <div id="seriesContainer">
+                <ul id="series"></ul>
+            </div>
+        </div>
+
+        <div id="register">
+            <h2>Regisztráció</h2>
+            <input type="text" id="regName" placeholder="Név">
+            <input type="email" id="regEmail" placeholder="Email">
+            <input type="password" id="regPassword" placeholder="Jelszó">
+            <button onclick="register()">Regisztráció</button>
+        </div>
+        
+        <div id="login">
+            <h2>Bejelentkezés</h2>
+            <input type="text" id="loginName" placeholder="Név">
+            <input type="password" id="loginPassword" placeholder="Jelszó">
+            <button onclick="login()">Bejelentkezés</button>
+        </div>
+        
+        <div id="seriesForm" style="display: none;">
+            <h2>Új sorozat hozzáadása</h2>
+            <input type="text" id="seriesTitle" placeholder="Sorozat címe">
+            <input type="number" id="seriesSeason" placeholder="Évad">
+            <input type="number" id="seriesEpisode" placeholder="Epizód">
+            <button onclick="addSeries()">Hozzáadás</button>
+            <button onclick="logout()">Kijelentkezés</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

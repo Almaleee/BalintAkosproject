@@ -1,0 +1,114 @@
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+ETag: W/"25-/NszNpq+hxTDyRh3rCaJM2Xxkgg"
+Date: Tue, 01 Apr 2025 10:08:01 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "message": "Sikeres regisztráció!"
+}
+----------
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 205
+ETag: W/"cd-bH0CU220l77AKITs/YYaj7C7Onw"
+Date: Tue, 01 Apr 2025 10:08:44 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmZWxoYXN6bmFsb19hem9uIjozLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzQzNTAyMTI0LCJleHAiOjE3NDM1MDU3MjR9.dI2_VVcAxWchy-zxr5u8DVfOG_95oPjOZBX8auMGmjE",
+  "isAdmin": false
+}
+----------
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 207
+ETag: W/"cf-03bv7Had24/mm8qjXF1vhlMSOu0"
+Date: Tue, 01 Apr 2025 10:10:21 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmZWxoYXN6bmFsb19hem9uIjpudWxsLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3NDM1MDIyMjEsImV4cCI6MTc0MzUwNTgyMX0.OEv9r_Ww-88PGls-HagBUWH-haHYFZeB-m80ANw4uCY",
+  "isAdmin": true
+}
+------------
+HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+ETag: W/"25-VGsG45iAnCFTNEpVj0oB/pYi9W4"
+Date: Tue, 01 Apr 2025 10:10:53 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "error": "Hozzáférés megtagadva."
+}
+----------
+HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+ETag: W/"25-VGsG45iAnCFTNEpVj0oB/pYi9W4"
+Date: Tue, 01 Apr 2025 10:16:16 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "error": "Hozzáférés megtagadva."
+}
+---------
+HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+ETag: W/"25-VGsG45iAnCFTNEpVj0oB/pYi9W4"
+Date: Tue, 01 Apr 2025 10:16:43 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "error": "Hozzáférés megtagadva."
+}
+--------
+HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+ETag: W/"25-VGsG45iAnCFTNEpVj0oB/pYi9W4"
+Date: Tue, 01 Apr 2025 10:17:16 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "error": "Hozzáférés megtagadva."
+}
+--------
+HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+ETag: W/"1f-cUehMtN4suq4VA7k+6m1hV4tfEM"
+Date: Tue, 01 Apr 2025 10:17:34 GMT
+Connection: keep-alive
+keep-alive: timeout=5
+
+{
+  "error": "Érvénytelen token"
+}
+----------

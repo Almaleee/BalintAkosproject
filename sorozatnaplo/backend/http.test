@@ -1,0 +1,60 @@
+### Teszt: Regisztráció
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "nev": "tesztfelhasznalo",
+    "email": "teszt@example.com",
+    "jelszo": "teszt123"
+}
+
+### Teszt: Bejelentkezés
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "nev": "tesztfelhasznalo",
+    "jelszo": "teszt123"
+}
+
+### Teszt: Admin bejelentkezés
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "nev": "admin",
+    "jelszo": "bab"
+}
+
+### Teszt: Sorozat hozzáadása (bejelentkezés szükséges)
+POST http://localhost:3000/sorozat
+Content-Type: application/json
+
+{
+    "token": "IDE_ÍRD_A_TOKEN-T",
+    "cim": "Breaking Bad",
+    "evad": 1,
+    "epizod": 1
+}
+
+### Teszt: Felhasználó sorozatainak lekérése
+GET http://localhost:3000/sorozat
+token: IDE_ÍRD_A_TOKEN-T
+
+### Teszt: Sorozat módosítása
+PUT http://localhost:3000/sorozat/1
+Content-Type: application/json
+token: IDE_ÍRD_A_TOKEN-T
+
+{
+    "evad": 2,
+    "epizod": 3
+}
+
+### Teszt: Sorozat törlése
+DELETE http://localhost:3000/sorozat/1
+token: IDE_ÍRD_A_TOKEN-T
+
+### Teszt: Admin lekérdezés
+GET http://localhost:3000/admin/sorozatok
+Authorization: Bearer IDE_ÍRD_A_TOKEN-T
